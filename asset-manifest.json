@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/my-hworks/static/css/main.0aca64f6.css",
-    "main.js": "/my-hworks/static/js/main.41b9a98a.js",
+    "main.css": "/my-hworks/static/css/main.2a4c5292.css",
+    "main.js": "/my-hworks/static/js/main.4b67e315.js",
     "static/media/samurai.jpg": "/my-hworks/static/media/samurai.5619495457f6e8acb824.jpg",
     "index.html": "/my-hworks/index.html",
-    "main.0aca64f6.css.map": "/my-hworks/static/css/main.0aca64f6.css.map",
-    "main.41b9a98a.js.map": "/my-hworks/static/js/main.41b9a98a.js.map"
+    "main.2a4c5292.css.map": "/my-hworks/static/css/main.2a4c5292.css.map",
+    "main.4b67e315.js.map": "/my-hworks/static/js/main.4b67e315.js.map"
   },
   "entrypoints": [
-    "static/css/main.0aca64f6.css",
-    "static/js/main.41b9a98a.js"
+    "static/css/main.2a4c5292.css",
+    "static/js/main.4b67e315.js"
   ]
 }
