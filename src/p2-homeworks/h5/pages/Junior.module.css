@@ -1,0 +1,34 @@
+.page {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: left/200% no-repeat url("/src/p2-homeworks/h2/image/samurai.jpg");
+    color: white;
+    text-shadow: 1px 1px 2px ghostwhite, 0 0 1em darkgrey, 0 0 0.2em darkgray;
+}
+
+.title {
+    text-align: center;
+}
+
+.pageError {
+    min-height: 100vh;
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    text-shadow: 1px 1px 2px ghostwhite, 0 0 1em darkgrey, 0 0 0.2em darkgray;
+}
+
+.pageError img {
+    margin: 0;
+    padding: 0;
+    height: 200px;
+}
+
+.pageError a {
+    font-size: 25px;
+    text-decoration: none;
+    color: darkgreen;
+    /*text-shadow:none;*/
+}
