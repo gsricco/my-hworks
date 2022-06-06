@@ -1,0 +1,27 @@
+.hw6 {
+    /*border:1px solid red;*/
+    margin: 0 5px 0 60px;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    /*border:1px solid green;*/
+
+}
+
+.niceSpan {
+    /*width: 500px;*/
+    border: 2px solid lightsteelblue;
+    border-radius: 5px;
+    background: olive;
+    padding: 0px 50px;
+}
+
+.niceSpan:hover {
+    border: 1px solid aquamarine;
+    border-radius: 7px;
+    background: olivedrab;
+}
+
