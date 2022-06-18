@@ -1,0 +1,21 @@
+.hw8 {
+    display: flex;
+    width: 350px;
+    color: green;
+    text-shadow: 1px 1px 2px ghostwhite, 0 0 1em darkgrey, 0 0 0.2em darkgray;
+}
+
+.name {
+    width: 150px;
+}
+
+.but {
+    display: flex;
+}
+
+.but button:hover {
+    background: lightsteelblue;
+    color: white;
+}
+
+
