@@ -1,0 +1,31 @@
+/*.notError {*/
+/*    border: none;*/
+/*}*/
+
+/*.hw3 {
+    display: flex;
+    align-items: flex-start;
+}*/
+
+.error {
+    border: 1px solid red;
+    background: red;
+    margin: 10px;
+}
+
+.notError {
+    background: gainsboro;
+    margin: 10px;
+}
+
+.hw3 button {
+    margin: 10px;
+}
+
+.span {
+    min-height: 50px;
+    color: red;
+    text-shadow: none;
+
+
+}

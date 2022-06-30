@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-shadow: none;
+}
+
+.mapped {
+    width: 100%;
+    min-height: 150px;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button {
+    width: 50%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button button {
+    background: #867066;
+    color: ghostwhite;
+}
+
+.button button:hover {
+    background: #63544c;
+    color: white;
+    text-shadow: 1px 1px 2px gainsboro;
+}
+
+.name, .priority {
+    width: 30%;
+}
+
+.name {
+    color: green;
+    text-transform: uppercase;
+}
+
+.priority {
+    color: darkred;
+}
+
+.high {
+    color: red
+}
+
+.middle {
+    color: blueviolet;
+}
+
+.low {
+    color: aquamarine;
+}
+
+.remove {
+    width: 20%;
+    background: forestgreen;
+    color: ghostwhite;
+}
+
+.remove:hover {
+    background: #2f6720;
+    color: white;
+    text-shadow: 1px 2px 2px black;
+}
+
