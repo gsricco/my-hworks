@@ -11,7 +11,7 @@ function Clock() {
     }
     const start = () => {
         stop()
-        const id: number = window.setInterval(() => {
+        const id: number = window.setInterval(() => {   // можно +setInterval
             setDate(new Date())
         }, 1000)
         setTimerId(id)
@@ -26,23 +26,27 @@ function Clock() {
 
     const stringTime = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}` // fix with date
     const stringDate = `${date.getDate()}.${date.getMonth()}.${date.getFullYear()}` // fix with date
+    // const stringTime = date?.toLocaleTimeString()||<br/>
+    // const stringDate = date?.toLocaleDateString()||<br/>
 
     return (
         <div>
             <div
                 onMouseEnter={onMouseEnter}
                 onMouseLeave={onMouseLeave}
-                style={{minHeight:'40px'}}
             >
                 {stringTime}
-
-
-            {show && (
-                <div >
-                    {stringDate}
-                </div>
-            )}
+                <div style={{minHeight: '25px'}}>
+                    {show && (
+                        <div>
+                            {stringDate}
+                        </div>
+                    )}</div>
             </div>
+            {/*{   show
+                ?(<div>{stringDate}</div>)
+                :(<br/>)
+            }*/}
             <SuperButton onClick={start} >start</SuperButton>
             <SuperButton onClick={stop}>stop</SuperButton>
 
