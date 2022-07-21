@@ -21,3 +21,36 @@
 .some-text {
     color: darkslateblue;
 }
+
+.crazy {
+    background: greenyellow;
+    color: khaki;
+    text-shadow: 1px 3px 2px #2f6720;
+}
+
+.crazy-text {
+    color: darkred;
+    text-shadow: 3px -3px 1px #2f6720;
+}
+
+.crazy-radio {
+    font-size: 20px;
+    color:mediumorchid;
+}
+.some-radio {
+    color:cyan;
+    font-size: 25px;
+
+}
+.red-radio {
+    color:red;
+    font-size: 15px;
+
+}
+.dark-radio {
+    color:black;
+    font-weight: bolder;
+
+}
+
+

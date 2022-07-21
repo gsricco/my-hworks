@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import SuperEditableSpan from './common/c4-SuperEditableSpan/SuperEditableSpan'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import {restoreState, saveState} from './localStorage/localStorage'
@@ -6,6 +6,7 @@ import s from './localStorage/HW6.module.css'
 
 function HW6() {
     const [value, setValue] = useState<string>('')
+
 
     const save = () => {
         saveState('editable-span-value', value)
@@ -15,7 +16,7 @@ function HW6() {
         console.log(state)
         setValue(state)
     }
-
+    // useEffect(restore, []) - по кнопке Restore, если просто при обновлении - добавить useEff
 
     return (
         <div>

@@ -1,8 +1,10 @@
 import {loadingReducer} from './loadingReducer'
 import {combineReducers, legacy_createStore} from "redux";
+import {themeReducer} from "../../h12/bll/themeReducer";
 
 const reducers = combineReducers({
     loadingState: loadingReducer,
+    themesState:themeReducer
 })
 
 const store = legacy_createStore(reducers)
